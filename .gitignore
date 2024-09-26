@@ -166,4 +166,13 @@ cython_debug/
 # Database
 *.sqlite3
 git add -A
+> git status
+On branch main
+Your branch is up-to-date with 'origin/update_gitignore'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   .gitignore
+git commit -m ".gitignore: add .bak and .sqlite3"
+git push origin update_gitignore
 
